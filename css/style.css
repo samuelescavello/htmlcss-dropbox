@@ -1,0 +1,47 @@
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+
+}
+
+/* general */
+body{
+    font-family: "Open Sans", sans-serif;
+}
+
+.debug {
+    border: 1px solid red;
+}
+
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.small-container{
+    max-width: 1000px;
+    margin: auto;
+}
+
+.d-flex{
+    display: flex;
+}
+
+/* headerr */
+nav{
+    width: 100%;
+}
+
+.left{
+    width: 40%;
+}
+
+.right{
+    width: 60%;
+}
