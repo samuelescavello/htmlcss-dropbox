@@ -29,6 +29,7 @@ ul {
 
 body{
     font-family: "Open Sans", sans-serif;
+    min-width: 1200px ;
 }
 
 .debug {
@@ -136,9 +137,9 @@ img{
 }
 
 .fa-arrow-down{
-    font-size: 30px;
+    font-size: 50px;
     color: var(--color-black);
-    margin-top: 120px;
+    margin-top: 100px;
 }
 
 /* mainnn */
@@ -151,3 +152,102 @@ h2{
     font-size: 40px;
 }
 
+.section-single{
+    padding-bottom: 60px;
+}
+
+.radio{
+    padding-right: 50px;
+}
+
+#input-radio{
+    padding-bottom: 60px;
+}
+
+/* cardd */
+.plans{
+    width: calc(100% / 3 - 20px);
+    border:1px solid lightgray;   
+}
+
+.single{
+    border-bottom: 1px solid lightgray;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.professional{
+    padding: 40px 40px; 
+}
+
+.title-card{
+    padding-bottom: 20px;
+    font-size: 25px;
+}
+
+.price-card{
+    padding-bottom: 10px;
+}
+
+.month-card{
+    font-size: 15px;
+    padding-bottom: 40px;
+    color: gray;
+}
+
+.ul-card{
+    padding-left: 40px;
+    padding-bottom: 60px;
+}
+
+.icons-ul{
+    padding-bottom: 10px;
+    text-indent: -0.6em;
+    padding-left: 1.2em;
+    padding-right: 20px;
+}
+
+.buttons-card{
+    text-align: center;
+    margin: 0 25px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 15px;
+    
+}
+
+a{
+    color: var(--color-white);
+}
+
+.buy-now{
+    padding-left: 40px;
+}
+
+.buy-now a{
+    text-decoration: underline;
+    color:blue;
+    padding-left:3px;
+}
+
+.buy-now{
+    margin-bottom: 40px;
+}
+
+.small-linee{
+    width: 50px;
+    border-top: 2px solid lightgray;
+    margin-left: 40px;
+    margin-bottom: 60px;
+}
+
+.titletwo-card{
+    margin-left: 40px;
+    font-size: medium;
+    margin-bottom: 30px;
+}
+
+.fa-check{
+    color: blue;
+}
