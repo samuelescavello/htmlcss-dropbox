@@ -67,6 +67,10 @@ body{
     align-content: start;  
 }
 
+.reverse{
+    flex-direction: row-reverse;
+}
+
 .wrap{
     flex-wrap: wrap;
 }
@@ -125,7 +129,8 @@ h1{
 }
 
 img{
-    width: 100%;   
+    width: 100%;
+    display: block;   
 }
 
 .p-jumbo{
@@ -250,4 +255,40 @@ a{
 
 .fa-check{
     color: blue;
+}
+/* enterprise */
+#enterprise{
+    margin-top: 50px;
+    border: 1px solid lightgray;
+    margin-bottom: 100px;
+}
+
+#team{
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid lightgray;
+}
+
+.titleh3{
+    padding-bottom: 20px;
+    font-size: 25px;
+}
+
+.titleh4{
+    padding-bottom: 10px;
+}
+
+.plight{
+    font-size: 15px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    
+    color: gray;
+}
+
+.butt-enterprise{
+    text-align: center;
+    margin: 0 25px;
+    margin-top: 35px;
+    padding: 15px;
 }
