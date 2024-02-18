@@ -71,6 +71,10 @@ body{
     flex-direction: row-reverse;
 }
 
+.start{
+    align-content: start;
+}
+
 .wrap{
     flex-wrap: wrap;
 }
@@ -282,7 +286,6 @@ a{
     font-size: 15px;
     padding-top: 30px;
     padding-bottom: 20px;
-    
     color: gray;
 }
 
@@ -291,4 +294,162 @@ a{
     margin: 0 25px;
     margin-top: 35px;
     padding: 15px;
+}
+
+.imgpartner{
+    width: 500px;
+}
+
+/* section1 */
+
+.c-partner{
+    margin-right: 200px;
+    margin-top: 80px;
+}
+
+.partner-button{
+    border: 1px solid black;
+    text-align: center;
+    width: 150px;
+    margin-top: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#color-partner{
+    color: #000000;
+}
+
+.title-part{
+    margin-bottom: 20px;
+}
+
+/* section2 */
+.section2{
+    margin-top: 100px;
+}
+
+.cards{
+    width: calc(100%/3 - 10px);
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.img-card{
+    width: 250px;
+}
+
+.title-card2{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+/* section3 */
+#title-section3{
+    padding-top: 100px;
+    padding-bottom: 60px;
+}
+
+#ancor3{
+    color: #0061ff;
+    text-decoration: underline;
+    
+}
+
+/* section4 */
+
+.ggg{
+    width: calc(100%2);
+    max-width: 30%;
+}
+
+.fff{
+    width: 200px;
+}
+
+/* section5 */
+
+.section5{
+    background-color: var(--color-light-blue);
+}
+
+#button5{
+    background-color: var(--color-white);
+    color: var(--color-black);
+    width: 70px;
+    padding: 10px 40px;
+}
+
+.cont-button{
+    margin-top: 80px;
+    margin-bottom: 100px;
+    margin-left: 150px;
+}
+
+.cont-title{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    color: var(--color-burgundy);
+}
+
+/* section6 */
+#title6{
+    padding-top: 100px;
+    padding-bottom: 70px;
+    border-bottom: 1px solid gray;
+}
+
+.fa-chevron-down{
+    color: #000000;
+    margin-left: 300px;
+}
+
+.h3-sec6{
+    font-size:16px;
+}
+
+.cont-sec-6{
+    margin-top: 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid gray;
+}
+/* foterrr */
+.bgfoot{
+    background-color: var(--color-black);
+    color: var(--color-white);
+    margin-top: 100px;
+}
+
+.ul-foot{
+    padding-left: 80px;
+}
+.ul-foot ul{
+    padding-right:80px;
+    padding-top: 70px;
+    
+}
+
+.li-foot{
+    padding-bottom: 10px;
+    font-size: smaller;
+}
+
+.li-title{
+    padding-right: 50px;
+    padding-bottom: 10px;   
+    font-size:larger;
+}
+
+#linee-foot{
+    width: 50px;
+    margin-top: 10px solid var(--color-white);
+    margin-left: 660px;
+    margin-top: 40px;
+    padding-bottom: 40px;
+}
+
+#icons-foot{
+    margin-left: 660px;
+    padding-bottom: 40px;
 }
