@@ -130,6 +130,11 @@ ul li img{
     color: var(--color-white);
 }
 
+.buttons:hover{
+    border: 5px solid lightgray;
+    cursor: pointer;
+}
+
 .left{
     width: 30%;
     margin-top: 40px;
@@ -339,6 +344,11 @@ a{
     padding-bottom: 5px;
 }
 
+.partner-button:hover{
+    border: 5px solid lightgray;
+    cursor: pointer;
+}
+
 #color-partner{
     color: #000000;
 }
@@ -433,29 +443,71 @@ a{
     background-color: var(--color-burgundy);
 }
 
+#smallarizona:hover{
+    border: 10px solid;
+    cursor: pointer;
+    transition: ease-in-out 0.5s;
+}
+
 #smallflorida{
     background-color: var(--color-blue);
+}
+
+#smallflorida:hover{
+    border: 10px solid;
+    cursor: pointer;
+    transition: ease-in-out 0.5s;
 }
 
 #smalltopps{
     background-color: var(--color-light-red);
 }
 
+#smalltopps:hover{
+    border: 10px solid;
+    cursor: pointer;
+    transition: ease-in-out 0.5s;
+}
+
 #smallworld{
 background-color: var(--color-dark-red);
+}
+
+#smallworld:hover{
+    border: 10px solid;
+    cursor: pointer;
+    transition: ease-in-out 0.5s;
 }
 
 #smallhearts{
 background-color: var(--color-light-blue);
 }
 
+#smallhearts:hover{
+    border: 10px solid;
+    cursor: pointer;
+    transition: ease-in-out 0.5s;
+}
+
 #smalllonely{
     background-color: var(--color-ultramarine);
+}
+
+#smalllonely:hover{
+    border: 10px solid;
+    cursor: pointer;
+    transition: ease-in-out 0.5s;
 }
     
 
 #smallchannel{
     background-color: var(--color-yellow);
+}
+
+#smallchannel:hover{
+    border: 10px solid;
+    cursor: pointer;
+    transition: ease-in-out 0.5s;
 }
 /* section5 */
 
@@ -468,6 +520,11 @@ background-color: var(--color-light-blue);
     color: var(--color-black);
     width: 70px;
     padding: 10px 40px;
+}
+
+#button5:hover{
+    border: 5px solid lightgray;
+    cursor: pointer;
 }
 
 .cont-button{
@@ -513,6 +570,7 @@ background-color: var(--color-light-blue);
 .ul-foot{
     padding-left: 80px;
 }
+
 .ul-foot ul{
     padding-right:80px;
     padding-top: 70px;
